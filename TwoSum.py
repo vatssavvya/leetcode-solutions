@@ -1,13 +1,9 @@
 #need to start learning DSA and implement faster solutions
 class Solution(object):
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         dict1 = {}
         
+
         return []
         """ for i in range(len(nums)-1):
             for j in range(1, len(nums)):
