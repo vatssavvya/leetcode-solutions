@@ -6,7 +6,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        dict1 = {}
         
+        return []
         """ for i in range(len(nums)-1):
             for j in range(1, len(nums)):
                 if (i != j):
