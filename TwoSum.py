@@ -8,6 +8,5 @@ class Solution(object):
 
             if comp_ind is not None:
                 return [i, comp_ind]
-            
             dict1[nums[i]] = i
-            return []
+        return []
