@@ -7,6 +7,6 @@ class Solution(object):
             comp_ind = dict1.get(comp)
 
             if comp_ind is not None:
-                return [i, comp_ind]
+                return [comp_ind, i]
             dict1[nums[i]] = i
         return []
