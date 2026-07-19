@@ -11,4 +11,3 @@ class Solution(object):
                 if (i != j):
                     if (nums[i] + nums[j] == target):
                         return [i,j]
-                    
