@@ -6,8 +6,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        for i in range(len(nums)-1):
+        
+        """ for i in range(len(nums)-1):
             for j in range(1, len(nums)):
                 if (i != j):
                     if (nums[i] + nums[j] == target):
                         return [i,j]
+        """
