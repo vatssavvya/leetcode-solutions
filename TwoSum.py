@@ -9,7 +9,8 @@ class Solution(object):
 
             if comp_ind is not None:
                 return [i, comp_ind]
-
+            
+            dict1[nums[i]] = i
         return []
         """ for i in range(len(nums)-1):
             for j in range(1, len(nums)):
