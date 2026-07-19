@@ -1,4 +1,3 @@
-#need to start learning DSA and implement faster solutions
 class Solution(object):
     def twoSum(self, nums, target):
         dict1 = {}
