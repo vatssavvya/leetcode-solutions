@@ -12,8 +12,6 @@ class Solution(Object):
                 left+=1
         return []
 
-
-
 #hash table solution
 """
 class Solution(object):
