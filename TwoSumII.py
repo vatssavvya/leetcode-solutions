@@ -1,5 +1,5 @@
 #my version of the two pointer method
-class Solution(Object):
+class Solution(object):
     def twoSum(self, numbers, target):
         left, right = 0, (len(numbers)-1)
         while left < right:
