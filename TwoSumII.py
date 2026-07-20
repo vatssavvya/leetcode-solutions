@@ -1,3 +1,4 @@
+#my version of the two pointer method
 class Solution(Object):
     def twoSum(self, numbers, target):
         left, right = 0, (len(numbers)-1)
