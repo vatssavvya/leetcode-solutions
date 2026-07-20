@@ -1,3 +1,12 @@
+class Solution(Object):
+    def twoSum(self, numbers, target):
+        print("init")
+
+
+
+
+#hash table solution
+"""
 class Solution(object):
     def twoSum(self, numbers, target):
         dict1 = {}
@@ -7,3 +16,4 @@ class Solution(object):
                 return [dict1[comp] + 1, i+1]
             dict1[numbers[i]] = i
         return []
+"""
