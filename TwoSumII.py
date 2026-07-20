@@ -4,6 +4,6 @@ class Solution(object):
         for i in range(len(numbers)):
             comp = target - numbers[i]
             if comp in dict1:
-                return [comp.value() + 1, i+1]
+                return [dict1[comp] + 1, i+1]
             dict1[numbers[i]] = i
         return []
