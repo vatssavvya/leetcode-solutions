@@ -1,4 +1,4 @@
-# 🚀 LeetCode Journey
+# LeetCode Journey
 
 Welcome to my private repository dedicated to tracking my LeetCode problem-solving journey, improving my data structures and algorithms (DSA) skills, and preparing for technical interviews.
 
