@@ -1,8 +1,9 @@
 class Solution(object):
     def containsDuplicate(self, nums):
-        for num in nums:
-            target = num
-            nums.remove(num)
+        i = 0
+        while i < len(nums):
+            target = nums[i]
+            nums.remove(target)
             if target in nums:
                 return True
         return False
