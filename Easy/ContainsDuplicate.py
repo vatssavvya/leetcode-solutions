@@ -3,7 +3,7 @@ class Solution(object):
         for num in nums:
             target = num
             nums.remove(num)
-            if target in num:
+            if target in nums:
                 return True
         return False
     
