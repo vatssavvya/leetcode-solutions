@@ -1,6 +1,6 @@
-# 🚀 LeetCode Journey
+# LeetCode Solutions
 
-Welcome to my private repository dedicated to tracking my LeetCode problem-solving journey, improving my data structures and algorithms (DSA) skills, and preparing for technical interviews.
+Welcome to my repository dedicated to tracking my LeetCode problem-solving, improving my data structures and algorithms (DSA) skills, and preparing for technical interviews.
 
 ## 📁 Repository Structure
 * `/easy/` - Warmups, basic logic, and foundational data structures.
