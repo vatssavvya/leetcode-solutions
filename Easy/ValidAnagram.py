@@ -9,8 +9,8 @@ class Solution(object):
                 dict1[s[i]] += 1
             else:
                 dict1[s[i]] = 1
-            if t[i] in dict1:
+            if t[i] in dict2:
                 dict2[t[i]] += 1
             else:
                 dict2[t[i]] = 1
-        
+        return (dict1 == dict2)
