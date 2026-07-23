@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Welcome to my repository dedicated to tracking my LeetCode problem-solving, improving my data structures and algorithms (DSA) skills, and preparing for technical interviews.
+Welcome to my repository dedicated to tracking my LeetCode problem-solving, improving my data structures and algorithms (DSA) skills, and preparing for technical interviews. I'm currently using the NeetCode Roadway.
 
 ## 📁 Repository Structure
 * `/easy/` - Warmups, basic logic, and foundational data structures.
