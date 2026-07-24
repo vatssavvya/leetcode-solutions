@@ -1,14 +1,3 @@
-#hard-coded solution
-class Solution(object):
-    def groupAnagrams(self, strs):
-        for i in range(len(strs)):
-            charFreq = [0] * 26
-            for char in strs[i]:
-                charFreq[char-97]+=1
-            
-        print("test")
-
-
 #sorted solution
 """        
 class Solution(object):
@@ -20,6 +9,19 @@ class Solution(object):
                 dict1[key] = []
             dict1[key].append(strs[i])
         return list(dict1.values())"""
+
+
+#hard-coded solution
+class Solution(object):
+    def groupAnagrams(self, strs):
+        for i in range(len(strs)):
+            charFreq = [0] * 26
+            for char in strs[i]:
+                charFreq[char-97]+=1
+            
+        print("test")
+
+
 
             
         
