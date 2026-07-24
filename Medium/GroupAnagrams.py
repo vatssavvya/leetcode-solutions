@@ -27,11 +27,3 @@ class Solution(object):
                 dict1[key] = []
             dict1[key].append(strs[i])
         return list(dict1.values())
-
-
-        print("test")
-
-
-
-            
-        
