@@ -7,14 +7,14 @@ class Solution(object):
             if i not in dict1:
                 dict1[i] = 0
             dict1[i] += 1
-        max1 = 0
+        maxKey = 0
         maxVal = 0
         for key, value in dict1.items():
            if value > maxVal:
                maxVal = value
-               max1 = key
+               maxKey = key
         while (key in nums):
            nums.remove(key)
-        list1.append(max1)
+        list1.append(maxKey)
       return list1
             
