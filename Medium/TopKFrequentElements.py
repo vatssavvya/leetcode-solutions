@@ -9,8 +9,8 @@ class Solution(object):
             dict1[i] += 1
         max1 = 0
         for key, value in dict1.items():
-           if value > max:
-               max = key
+           if value > max1:
+               max1 = key
         while (key in nums):
            nums.remove(key)
         list1.append(max1)
