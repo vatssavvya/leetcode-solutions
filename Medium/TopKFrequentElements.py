@@ -1,5 +1,6 @@
 class Solution(object):
     def topKFrequent(self, nums, k):
+      list1 = []
       for i in range(k):
         dict1 = {}
         for i in nums:
@@ -10,4 +11,8 @@ class Solution(object):
         for key, value in dict1.items():
            if value > max:
                max = key
+        while (key in nums):
+           nums.remove(key)
+        list1.append(max1)
+      return list1
             
