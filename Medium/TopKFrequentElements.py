@@ -13,8 +13,7 @@ class Solution(object):
            if value > maxVal:
                maxVal = value
                maxKey = key
-        while (key in nums):
-           nums.remove(key)
+        while (maxKey in nums):
+           nums.remove(maxKey)
         list1.append(maxKey)
       return list1
-            
