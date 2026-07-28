@@ -1,3 +1,7 @@
+#optimal solution
+
+
+# hard coded solution
 class Solution(object):
     def topKFrequent(self, nums, k):
       list1 = []
