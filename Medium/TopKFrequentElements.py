@@ -8,8 +8,10 @@ class Solution(object):
                 dict1[i] = 0
             dict1[i] += 1
         max1 = 0
+        maxVal = 0
         for key, value in dict1.items():
-           if value > max1:
+           if value > maxVal:
+               maxVal = value
                max1 = key
         while (key in nums):
            nums.remove(key)
