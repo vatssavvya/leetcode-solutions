@@ -4,7 +4,7 @@ class Solution(object):
       for i in range(k):
         dict1 = {}
         for i in nums:
-            if i not in nums:
+            if i not in dict1:
                 dict1[i] = 0
             dict1[i] += 1
         max1 = 0
