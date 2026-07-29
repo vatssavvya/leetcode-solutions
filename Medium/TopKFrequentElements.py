@@ -4,7 +4,9 @@ class Solution(object):
       dict1 = {}
       for num in nums:
          dict1[num] = dict1.get(num, 0) + 1
-      
+      list1 = []
+      for key, value in dict1.items():
+         
 
 # hard coded solution
 """class Solution(object):
