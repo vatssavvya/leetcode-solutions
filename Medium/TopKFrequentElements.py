@@ -1,7 +1,9 @@
 #optimal solution
 class Solution(object):
    def topKFrequent(self, nums, k):
-      
+      dict1 = {}
+      for num in nums:
+         dict1[num] = dict1.get(num, 0) + 1
 
 # hard coded solution
 """class Solution(object):
