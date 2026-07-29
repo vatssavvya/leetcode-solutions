@@ -4,6 +4,7 @@ class Solution(object):
       dict1 = {}
       for num in nums:
          dict1[num] = dict1.get(num, 0) + 1
+      
 
 # hard coded solution
 """class Solution(object):
