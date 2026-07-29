@@ -1,10 +1,10 @@
 #optimal solution
 class Solution(object):
    def topKFrequent(self, nums, k):
-      print("starting")
+      
 
 # hard coded solution
-class Solution(object):
+"""class Solution(object):
     def topKFrequent(self, nums, k):
       list1 = []
       for i in range(k):
@@ -22,4 +22,4 @@ class Solution(object):
         while (maxKey in nums):
            nums.remove(maxKey)
         list1.append(maxKey)
-      return list1
+      return list1"""
