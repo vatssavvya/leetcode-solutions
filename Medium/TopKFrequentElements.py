@@ -8,7 +8,10 @@ class Solution(object):
       for key, value in dict1.items():
          list1.append((value, key))
       list1.sort(reverse=True)
-
+      finalList = []
+      for i in range(k):
+         finalList.append(list1[i][1])
+      return finalList
 # hard coded solution
 """class Solution(object):
     def topKFrequent(self, nums, k):
