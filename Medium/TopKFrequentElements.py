@@ -6,7 +6,8 @@ class Solution(object):
          dict1[num] = dict1.get(num, 0) + 1
       list1 = []
       for key, value in dict1.items():
-         
+         list1.append((value, key))
+      list1.sort(reverse=True)
 
 # hard coded solution
 """class Solution(object):
