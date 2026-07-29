@@ -1,5 +1,7 @@
 #optimal solution
-
+class Solution(object):
+   def topKFrequent(self, nums, k):
+      print("starting")
 
 # hard coded solution
 class Solution(object):
