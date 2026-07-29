@@ -12,6 +12,7 @@ class Solution(object):
       for i in range(k):
          finalList.append(list1[i][1])
       return finalList
+   
 # hard coded solution
 """class Solution(object):
     def topKFrequent(self, nums, k):
