@@ -1,3 +1,7 @@
+#fastest solution
+
+
+
 #hard coded solution
 """class Solution(object):
     def productExceptSelf(self, nums):
