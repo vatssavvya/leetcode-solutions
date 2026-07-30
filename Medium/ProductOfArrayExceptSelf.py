@@ -1,5 +1,5 @@
 #hard coded solution
-class Solution(object):
+"""class Solution(object):
     def productExceptSelf(self, nums):
         answer = []
         for i in range(len(nums)):
@@ -10,4 +10,4 @@ class Solution(object):
                 else:
                     total *= nums[j]
             answer.append(total)
-        return answer    
+        return answer """
