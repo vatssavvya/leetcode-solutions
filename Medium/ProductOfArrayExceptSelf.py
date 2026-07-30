@@ -1,5 +1,10 @@
 #fastest solution
-
+class Solution(object):
+    def productExceptSelf(self, nums):
+        leftArray = []
+        rightArray = []
+        for i in range(len(nums)):
+            
 
 
 #hard coded solution
