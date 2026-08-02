@@ -13,7 +13,7 @@ class Solution(object):
          finalList.append(list1[i][1])
       return finalList
    
-# hard coded solution
+# hard coded solution 
 """class Solution(object):
     def topKFrequent(self, nums, k):
       list1 = []
