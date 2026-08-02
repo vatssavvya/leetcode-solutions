@@ -12,7 +12,7 @@ class Solution(object):
             answers[i] = leftArray[i] * rightArray[i]
         return answers
 
-#hard coded solutio
+#hard coded solution (o(n^2))
 """class Solution(object):
     def productExceptSelf(self, nums):
         answer = []
