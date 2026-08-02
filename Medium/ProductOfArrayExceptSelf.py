@@ -1,4 +1,4 @@
-#fastest solution
+#fastest solution (O(n))
 class Solution(object):
     def productExceptSelf(self, nums):
         answers = [0] * len(nums)
