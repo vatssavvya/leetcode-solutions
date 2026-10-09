@@ -1,4 +1,5 @@
 class Solution(object):
     def minEatingSpeed(self, piles, h):
-        for i in range(len(piles)):
-            print("test")
+       l,r = 1, max(piles)
+         while r - l > 1:
+            m = (l + r) // 2
