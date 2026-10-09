@@ -4,3 +4,5 @@ class Solution(object):
             if (target in matrix[i]):
                 return True
         return False
+
+    #DO BINARY SEARCH WITH THIS ONE FOR PRACTICE
