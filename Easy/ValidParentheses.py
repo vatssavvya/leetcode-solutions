@@ -6,15 +6,18 @@ class Solution(object):
                 stack.append(char)
             else:
                 if char == ')':
-                    if stack[-1] == '(':
+                    if (len(stack) > 0) and ((stack[-1] == '(')):
                         stack.pop()
+                    else:
+                        return False
                 elif char == '}':
-                    if stack[-1] == '{':
+                    if (len(stack) > 0) and ((stack[-1] == '{')):
                         stack.pop()
+                    else:
+                        return False
                 elif char == ']':
-                    if stack[-1] == '[':
+                    if (len(stack) > 0) and ((stack[-1] == '[')):
                         stack.pop()
+                    else:
+                        return False
         return len(stack) == 0
-            
-        
-        
