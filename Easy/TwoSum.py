@@ -1,10 +1,13 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        dict1 = {}
+        freq = {}
         for i in range(len(nums)):
-            comp = target - nums[i]
-            comp_ind = dict1.get(comp)
-            if comp_ind is not None:
-                return [comp_ind, i]
-            dict1[nums[i]] = i
-        return []
+            num1 = target - nums[i]
+            num1_ind = freq.get(num1, -1)
+            if num1_ind != -1:
+                return [num1_ind, i]
+            freq[nums[i]] = i
+        return []    
+
+
+        
